@@ -26,8 +26,8 @@ sudo /usr/local/sbin/system-backup
 ```
 
 
---- (if needed) ---
-## 2. Configuration
+--- 
+## 2. Configuration (if needed)
 Edit the variables at the top of the script (sudo nano /usr/local/sbin/system-backup):
 
 `SOURCE_DIRS`: Directories to back up, separated by spaces.
