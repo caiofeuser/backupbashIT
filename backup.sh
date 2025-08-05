@@ -2,10 +2,10 @@
 # Settings section
 # 1. Directories you want to back up (spaces to multiple folders).
 # i.e: SOURCE_DIRS="/home/backup  /data /var/www/html /etc"
-SOURCE_DIRS=""
+SOURCE_DIRS="/home/inspire /etc"
 
 # 2. Directory where the backups will be saved.
-# i.e: DEST_DIR="/backups/daily"
+DEST_DIR="/home/backups"
 
 # 3. Number of days that backup files should be kept. (att: files older than this will be deleted.)
 DAYS_TO_KEEP=7
