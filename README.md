@@ -19,10 +19,10 @@ Place the script in a system path and make it executable.
 sudo mv system-backup.sh /usr/local/sbin/system-backup
 
 # Make it executable
-sudo chmod +x /usr/local/sbin/system-backup
+sudo chmod +x /usr/local/sbin/system-backup/backup.sh
 
 # To run manually
-sudo /usr/local/sbin/system-backup
+sudo /usr/local/sbin/system-backup/backup.sh
 ```
 
 
