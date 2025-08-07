@@ -44,11 +44,12 @@ i.e: DEST_DIR="/media/inspire/MyBackupDrive/backups"
 i.e: DAYS_TO_KEEP=7
 
 ### To schedule the backup (using cron)
+This line will invoke the script every sunday at 2h30AM
 
 ```bash
 # Open cron tab
 sudo crontab -e
 
 # Add this line to the file:
-0 4 * * 0 /usr/local/sbin/system-backup > /var/log/system-backup.log 2>&1
+30 2 * * 0 /usr/local/sbin/system-backup > /var/log/system-backup.log 2>&1
 ```
